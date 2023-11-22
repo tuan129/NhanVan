@@ -1,0 +1,114 @@
+body{
+    display: flex ;
+    justify-content: center ;
+    align-items: center ;
+    flex-direction: column;
+}
+
+.smallTable {
+    width: 84.4% ;
+    margin-top: 20px ;
+    display: flex ;
+    justify-content: space-between ;
+    align-self: center ;
+    flex-wrap: wrap ;
+}
+
+.smallTable>.table {
+    width: 48% ;
+    display: flex ;
+    justify-content: center ;
+    align-items: center ;
+    flex-direction: column;
+    border-bottom:1px solid #ddd ;
+    border-left:1px solid #ddd ;
+    border-right:1px solid #ddd ;
+}
+.smallTable>.table>.header {
+    margin-top: 30px;
+    width: 100%;
+    display: flex ;
+    justify-content: space-between ;
+    align-items: center;
+    border-bottom: 3px solid rgba(49,112,182,255);
+}
+.smallTable>.table>.header>.part1 {
+    background-color: rgba(49,112,182,255) ;
+    color: white ;
+    padding: 10px ;
+    position: relative;
+}
+.smallTable>.table>.header>.part2 {
+    width:6%;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    position: relative;
+    right: 23px ;
+}
+.smallTable>.table>.header>.part2>span {
+    background-color: white ;
+    padding: 5px 10px 5px 10px ;
+}
+.smallTable>.table>img.outer{
+    width: 100%;
+}
+.smallTable>.table>.grid {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px 0 15px;
+}
+.smallTable>.table>.grid>.product {
+    margin-top: 10px ;
+    width: 30%;
+    background-color: white;
+    display: flex ;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    padding-bottom: 10px ;
+    position: relative;
+}
+.smallTable>.table>.grid>.product>p {
+    padding: 0 10px 0 10px ;
+}
+.smallTable>.table>.grid>.product>img:nth-child(1) {
+    width: 145px;
+    height: 183px;
+}
+.smallTable>.table>.grid>.product>img:nth-child(3) {
+    width: 100%;
+    height: auto;
+}
+.smallTable>.table>.grid>.product>.price>p,del {
+    margin: 10px 0 20px ; 
+    margin: 0 ;
+    padding: 0 ;
+}
+.smallTable>.table>.grid>.product>.price>p{
+    font-weight: bold;
+    color: rgba(236,100,42,255) ;
+}
+.smallTable>.table>.grid>.product>.discount{
+    position: absolute;
+    top: 10px ;
+    left: 10px ;
+    color: white ;
+    background-color: rgba(236,100,42,255) ;
+    padding:5px ;
+    border-radius: 10px ;
+}
+.smallTable>.table>.buttonSubmit{
+    background-color: #ff5800;
+    color: white;
+    padding: 8px 20px;
+    margin: 20px 0px 10px;
+    border-radius: 40px;
+    font-size: 13px;
+}
+.smallTable>.table>.buttonSubmit:hover{
+    cursor: pointer;
+    opacity: .6;
+}

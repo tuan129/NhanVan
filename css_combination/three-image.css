@@ -1,0 +1,19 @@
+.imgMiddlePage {
+    width: 100% ;
+   display: flex ;
+   justify-content: center ;
+   align-items: flex-start;
+   margin-top: 20px ;
+}
+.imgMiddlePage>.wrapper{
+    width: 84.4%;
+    display: flex ;
+    justify-content: space-between ;
+    align-items: center;
+}
+.imgMiddlePage>.wrapper>div{
+    width: 32%;
+}
+.imgMiddlePage>.wrapper>div>img{
+    width: 100%;
+}

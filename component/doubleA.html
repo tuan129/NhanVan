@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css_combination/top-banner.css">
+    <link rel="stylesheet" href="../css_combination/header.css">
+    <link rel="stylesheet" href="../css_combination/main-filter.css">
+    <link rel="stylesheet" href="../css_combination/css_components/path.css">
+    <link rel="stylesheet" href="../css_combination/css_components/SideContent.css">
+    <link rel="stylesheet" href="../css_combination/sendMail.css">
+    <link rel="stylesheet" href="../css_combination/footer.css">
+</head>
+<body>
+    <div class="top-banner">
+        <img src="../asset/top-banner.webp" alt="">
+        <div class="top_banner_text">
+            <span>Chào mừng bạn đến với NHÂN VĂN - Siêu thị sách & tiện ích</span>
+            <span>
+                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z"/></svg>
+                Email: sale@nhanvan.vn</span>
+            <span>
+                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/></svg>
+                Hotline Mua Lẻ: 028.3636.7777</span>
+            <span>
+                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/></svg>
+                Hotline Mua Sỉ: 0813.709.777</span>
+        </div>
+    </div>
+    <div class="Header">
+        <div class="wrapper">
+            <div class="img">
+                <img src="../asset/logo.webp" alt="">
+            </div>
+            <div class="searchBar">
+                <div class="search">
+                    <input type="text" placeholder="Tìm kiếm sản phẩm...">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1.3em" viewBox="0 0 512 512"><style>svg{fill:#ffffff}</style><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>            
+                    </div>
+                </div>
+                <div class="suggest">
+                    <span>Diễn Tiến Văn Hóa Nguồn Gốc Chữ Hán - Quyển 3</span>
+                    <span>Sách Nhân Số Học</span>
+                    <span>Máy Tính Casio</span>
+                    <span>Methode Rose</span>
+                    <span>Giấy Double A Everyday - A4 70 Gsm</span>
+                    <span>Đập Tan Nợ Nần</span>
+                </div>
+            </div>
+            <div class="cart">
+                <svg xmlns="http://www.w3.org/2000/svg" height="1.5em" viewBox="0 0 576 512"><style>svg{fill:#2c6ddd}</style><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>            <span>Giỏ hàng</span>
+            </div>
+            <div class="user">
+                <svg xmlns="http://www.w3.org/2000/svg" height="1.5em" viewBox="0 0 448 512"><style>svg{fill:#2868d7}</style><path d="M304 128a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM49.3 464H398.7c-8.9-63.3-63.3-112-129-112H178.3c-65.7 0-120.1 48.7-129 112zM0 482.3C0 383.8 79.8 304 178.3 304h91.4C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7H29.7C13.3 512 0 498.7 0 482.3z"/></svg>            <span>Đăng nhập/ Đăng ký</span>
+            </div>
+        </div>
+    </div>
+    <div class="filter">
+        <div class="wrapper">
+            <div class="main-filter">
+                <h3>DANH MỤC</h3>
+                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+            </div>
+            <span class="red_color">GIAO HÀNG NHANH 2H</span>
+            <span class="fz_16px">SÁCH ĐỘC QUYỀN</span>
+            <span class="fz_16px">SALES TRONG THÁNG</span>
+            <span class="fz_16px">SÁCH MỚI</span>
+            <span class="fz_16px">KIỂM TRA ĐƠN HÀNG</span>
+        </div>
+        <div class="crossOver"></div>
+    </div>
+    <div class="path">Trang chủ >> KHO TÀNG SÁCH >> Giấy Double A Everyday - A4 70 Gsm </div>
+    <div class="SideContent">
+        <div class="rightSide">
+            <div class="contentTotal">
+                <div class="imgContainer">
+                    <img class="imgReceiver" src="../asset/flash_sale-2.webp" alt="">
+                    <div class="discount">-5%</div>
+                </div>
+                <div class="content">
+                    <div class="name">Giấy Double A Everyday - A4 70 Gsm</div>
+                    <div><em>SKU:</em> 8935244897227</div>
+                    <div><em>LOẠI SẢN PHẨM:</em> Nhóm Sản Phẩm Về Giấy</div>
+                    <div class="price d-flex_custom">
+                        <p>110,000₫</p>
+                        <del>52,000₫</del>
+                    </div>
+                    <div class="count">
+                        <span>Số lượng</span>
+                        <div>
+                            <span>-</span>
+                            <span>1</span>
+                            <span>+</span>
+                        </div>
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512" style="fill: orange;"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/></svg>
+                            <p>Sản phẩm này có tại 4 cửa hàng.</p>
+                        </span>
+                    </div>
+                    <div class="buttonWrapper">
+                        <span>THÊM VÀO GIỎ HÀNG</span>
+                        <span>MUA NGAY</span>
+                    </div>
+                    <hr>
+                    <div class="listSale">
+                        <div class="name">ƯU ĐÃI CỦA BẠN</div>
+                        <img src="../asset/sales.png" alt="">
+                    </div>
+                    <hr>
+                    <div class="recommend">
+                        <span>HOÀN TIỀN 100%</span>
+                        <span>ĐỔI TRẢ TRONG 07 NGÀY</span>
+                        <span>TÍCH LŨY NV-POINT</span>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="selectImage">
+                <img src="../asset/flash_sale-1.webp" class="selectImg" alt="">
+                <img src="../asset/1-variant-1.jpg" class="selectImg" alt="">
+                <img src="../asset/1-variant-2.jpg" class="selectImg" alt="">
+            </div> -->
+            <div class="carousel">
+                <div class="header">Thường được mua cùng</div>
+                <div class="container">
+                    <div class="buttonleft"><p><</p></div>
+                    <div class="buttonright">></div>
+                    <div class="items dataItemSlider tf-150px">
+                        <img src="../asset/flash_sale-2.webp" alt="">
+                        <div class="detail">
+                            overflow - tập 2 ( có tặng kèm slider chiếu )
+                        </div>
+                        <div class="price">
+                            <span>2000 ₫</span>
+                            <del>3000 ₫</del>
+                        </div>
+                    </div>
+                    <div class="items dataItemSlider tf-150px">
+                        <img src="../asset/flash_sale-3.webp" alt="">
+                        <div class="detail">
+                            overflow - tập 2 ( có tặng kèm slider chiếu )
+                        </div>
+                        <div class="price">
+                            <span>2000 ₫</span>
+                            <del>3000 ₫</del>
+                        </div>
+                    </div>
+                    <div class="items dataItemSlider tf-150px">
+                        <img src="../asset/flash_sale-4.webp" alt="">
+                        <div class="detail">
+                            overflow - tập 2 ( có tặng kèm slider chiếu )
+                        </div>
+                        <div class="price">
+                            <span>2000 ₫</span>
+                            <del>3000 ₫</del>
+                        </div>
+                    </div>
+                    <div class="items dataItemSlider tf-150px">
+                        <img src="../asset/flash_sale-5.webp" alt="">
+                        <div class="detail">
+                            overflow - tập 2 ( có tặng kèm slider chiếu )
+                        </div>
+                        <div class="price">
+                            <span>2000 ₫</span>
+                            <del>3000 ₫</del>
+                        </div>
+                    </div>
+                    <div class="items dataItemSlider tf-150px">
+                        <img src="../asset/flash_sale-5.webp" alt="">
+                        <div class="detail">
+                            overflow - tập 2 ( có tặng kèm slider chiếu )
+                        </div>
+                        <div class="price">
+                            <span>2000 ₫</span>
+                            <del>3000 ₫</del>
+                        </div>
+                    </div>
+                    <div class="items dataItemSlider tf-150px">
+                        <img src="../asset/flash_sale-6.webp" alt="">
+                        <div class="detail">
+                            overflow - tập 2 ( có tặng kèm slider chiếu )
+                        </div>
+                        <div class="price">
+                            <span>2000 ₫</span>
+                            <del>3000 ₫</del>
+                        </div>
+                    </div>
+                    <div class="items dataItemSlider tf-150px">
+                        <img src="../asset/flash_sale-7.webp" alt="">
+                        <div class="detail">
+                            overflow - tập 2 ( có tặng kèm slider chiếu )
+                        </div>
+                        <div class="price">
+                            <span>2000 ₫</span>
+                            <del>3000 ₫</del>
+                        </div>
+                    </div>
+                    <div class="items dataItemSlider tf-150px">
+                        <img src="../asset/flash_sale-8.webp" alt="">
+                        <div class="detail">
+                            overflow - tập 2 ( có tặng kèm slider chiếu )
+                        </div>
+                        <div class="price">
+                            <span>2000 ₫</span>
+                            <del>3000 ₫</del>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="productDetail">
+                <div class="header">MÔ TẢ SẢN PHẨM</div>
+                <div class="content">
+                    <div class="header">Thông tin chi tiết</div>
+                    <table class="border">
+                        <tr>
+                          <th>Tác giả</th>
+                          <th class="border">Monoko Sakura</th>
+                        </tr>
+                        <tr>
+                            <th>Người dịch</th>
+                            <th  class="border">Hương Giang</th>
+                        </tr>
+                        <tr>
+                            <th>NXB</th>
+                            <th  class="border">Kim Đồng</th>
+                        </tr>
+                        <tr>
+                            <th>Năm xuất bản</th>
+                            <th  class="border">2023</th>
+                        </tr>
+                        <tr>
+                            <th>Ngôn ngữ</th>
+                            <th  class="border">Tiếng Việt</th>
+                        </tr>
+                        <tr>
+                            <th>Trọng Lượng ( gram )</th>
+                            <th  class="border">190</th>
+                        </tr>
+                        <tr>
+                            <th>Kích thước bao bì</th>
+                            <th  class="border">18 x 13 x 0.8 cm</th>
+                        </tr>
+                        <tr>
+                            <th>Số trang	</th>
+                            <th  class="border">172</th>
+                        </tr>
+                        <tr>
+                            <th>Hình thức	</th>
+                            <th  class="border">Bìa Mềm</th>
+                        </tr>
+                      </table>
+                      <div class="details">
+                            <h4>Giấy Double A Everyday - A4 70 Gsm</h4>
+                            Giấy Double A 70gsm là loại giấy trắng, độ sắc nét cao, in 2 mặt không bị kẹt giấy.
+Giấy Double A sử dụng được hầu hết các loại máy in và máy photocopy trên thị trường.
+Bề mặt dày và mịn, thấm hút mực in cực tốt. Sản phẩm in rõ và đẹp, sống động, tiết kiệm vì sử dụng được cả hai mặt giấy nhờ khả năng chắn sáng cao, phù hợp với tất cả các loại máy in văn phòng.
+Sản xuất theo công nghệ dây chuyền của Thái Lan hiện đại và đang là thương hiệu giấy văn phòng phẩm được yêu thích trên toàn Châu Á.
+                      </div>
+                </div>
+            </div>
+            <div class="comment">
+                <div class="header">
+                    <span>55 bình luận</span>
+                    <span>
+                        Sắp xếp theo
+                        <select name="" id="">
+                            <option value="Cũ nhất" selected>Cũ nhất</option>
+                            <option value="Mới nhất">Mới nhất</option>
+                        </select>
+                    </span>
+                </div>
+                <hr>
+                <div class="listComment">
+                    <div class="me">
+                        <img src="../asset/me.png" alt="">
+                        <input type="text" placeholder="Viết bình luận...">
+                    </div>
+                    <div class="clone">
+                        <img src="../asset/user1.png" alt="">
+                        <div>
+                            <h6 class="name">Bánh bao</h6>
+                            <p>share</p>
+                            <div class="btn-list    ">
+                                <span>Thích</span>
+                                <span>Phản hồi</span>
+                                <span>
+                                    <img src="../asset/like-btn.png" alt="">
+                                    2
+                                </span>
+                                <span>24 tuần</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clone">
+                        <img src="../asset/user 2.png" alt="">
+                        <div>
+                            <h6 class="name">Lê Thị Lan</h6>
+                            <p>Xin hỏi shop có bán loại xà bông tắm này không ạ 
+                               <a href="#">https://sonca.vn/san-pham/xa-bong-cuc-lifebuoy/</a>
+                            </p>
+                            <div class="btn-list    ">
+                                <span>Thích</span>
+                                <span>Phản hồi</span>
+                                <span>
+                                    <img src="../asset/like-btn.png" alt="">
+                                    2
+                                </span>
+                                <span>24 tuần</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clone sub-clone">
+                        <img src="../asset/admin.png" alt="">
+                        <div>
+                            <h6 class="name">
+                                Nhà Sách Nhân Văn
+                                <img src="../asset/blue-tick.png" alt="">
+                            </h6>
+                            <p>Dạ chào bạn. Bạn tham khảo sản phẩm Xà Bông Cục Lifebuoy Diệt Khuẩn Bảo Vệ Vượt Trội 10 - 90G tại link này nhé 
+                               <a href="#">https://nhanvan.vn/.../lifebuoy-xa-bong-cuc-bao-ve-vuot...</a>
+                            </p>
+                            <div class="btn-list">
+                                <span>Thích</span>
+                                <span>Phản hồi</span>
+                                <span>
+                                    <img src="../asset/like-btn.png" alt="">
+                                    2
+                                </span>
+                                <span>24 tuần</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clone">
+                        <img src="../asset/user3.jpg" alt="">
+                        <div>
+                            <h6 class="name">Hạ Kiều Anh</h6>
+                            <p>Đúng chương trình cũ ko ạ                            </p>
+                            <div class="btn-list    ">
+                                <span>Thích</span>
+                                <span>Phản hồi</span>
+                                <span>
+                                    <img src="../asset/like-btn.png" alt="">
+                                    2
+                                </span>
+                                <span>24 tuần</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clone sub-clone">
+                        <img src="../asset/admin.png" alt="">
+                        <div>
+                            <h6 class="name">
+                                Nhà Sách Nhân Văn
+                                <img src="../asset/blue-tick.png" alt="">
+                            </h6>
+                            <p>Mến chào bạn! Bạn đang quan tâm sản phẩm gì ạ? Nhân Văn không inbox bạn được, bạn inbox để Nhân Văn hỗ trợ thêm cho bạn nhé.
+                            </p>
+                            <div class="btn-list    ">
+                                <span>Thích</span>
+                                <span>Phản hồi</span>
+                                <span>
+                                    <img src="../asset/like-btn.png" alt="">
+                                    2
+                                </span>
+                                <span>24 tuần</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clone">
+                        <img src="../asset/user4.jpg" alt="">
+                        <div>
+                            <h6 class="name">Nguyễn Quý</h6>
+                            <p>fx880 cho l9 mang vào phòng thi ??? giá này ra nhà sách có như vậy k shop ơi
+                            </p>
+                            <div class="btn-list    ">
+                                <span>Thích</span>
+                                <span>Phản hồi</span>
+                                <span>
+                                    <img src="../asset/like-btn.png" alt="">
+                                    3
+                                </span>
+                                <span>24 tuần</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clone sub-clone">
+                        <img src="../asset/admin.png" alt="">
+                        <div>
+                            <h6 class="name">
+                                Nhà Sách Nhân Văn
+                                <img src="../asset/blue-tick.png" alt="">
+                            </h6>
+                            <p>Chào bạn. Máy Tính Casio FX880 BTG được phép mang vào phòng thi ạ. Giá ở website có áp dụng tại cửa hàng. Bạn có thể đặt mua ở web hoặc ghé trải nghiệm tại 04 chi nhánh của Nhân Văn nhé.
+
+                            </p>
+                            <div class="btn-list    ">
+                                <span>Thích</span>
+                                <span>Phản hồi</span>
+                                <span>
+                                    <img src="../asset/like-btn.png" alt="">
+                                    2
+                                </span>
+                                <span>24 tuần</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clone">
+                        <img src="../asset/user5.jpg" alt="">
+                        <div>
+                            <h6 class="name">Hiên Kim Hiên</h6>
+                            <p>Bộ sách lớp 2 vẫn còn ko ạ
+                            </p>
+                            <div class="btn-list    ">
+                                <span>Thích</span>
+                                <span>Phản hồi</span>
+                                <span>
+                                    <img src="../asset/like-btn.png" alt="">
+                                    2
+                                </span>
+                                <span>24 tuần</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clone sub-clone">
+                        <img src="../asset/admin.png" alt="">
+                        <div>
+                            <h6 class="name">
+                                Nhà Sách Nhân Văn
+                                <img src="../asset/blue-tick.png" alt="">
+                            </h6>
+                            <p>Chào bạn. Bên mình có hàng SGK lớp 2 bộ Cánh diều và Chân trời sáng tạo, cả 2 bộ đều còn hàng ạ. Bạn tham khảo và đặt mua tại link này nhé 
+                               <a href="#">https://nhanvan.vn/collections/sach-giao-khoa-lop-2</a>
+                            </p>
+                            <div class="btn-list">
+                                <span>Thích</span>
+                                <span>Phản hồi</span>
+                                <span>
+                                    <img src="../asset/like-btn.png" alt="">
+                                    2
+                                </span>
+                                <span>24 tuần</span>
+                            </div>
+                        </div>
+                    </div>
+                    <button>Tải thêm 10 bình luận</button>
+                </div>
+            </div>
+        </div>
+        <div class="leftSide">
+            <div class="policy border">
+                <div class="header border">CHÍNH SÁCH BÁN HÀNG</div>
+                <div class="data">
+                    <img src="../asset/free-delivery.webp" alt="">
+                    <div class="detail">
+                        <h6 class="header">HOÀN TIỀN 101%</h6>
+                        <div class="detail_msg" style="opacity: 0.5">Nếu phát hiện hàng kém chất lượng</div>
+                    </div>
+                </div>
+                <hr>
+                <div class="data">
+                    <img src="../asset/lifeguard.webp" alt="">
+                    <div class="detail">
+                        <h6 class="header">ĐỔI TRẢ 7 NGÀY</h6>
+                        <div class="detail_msg" style="opacity: 0.5">Loại trừ trường hợp thay đổi suy nghĩ</div>
+                    </div>
+                </div>
+                <hr>
+                <div class="data">
+                    <img src="../asset/refresh.webp" alt="">
+                    <div class="detail">
+                        <h6 class="header">MÃ ƯU ĐÃI HÀNG LOẠT</h6>
+                        <div class="detail_msg" style="opacity: 0.5">Mã Free-ship, Mã thanh toán, Mã hàng ngày</div>
+                    </div>
+                </div>
+                <hr><div class="data">
+                    <img src="../asset/pay.webp" alt="">
+                    <div class="detail">
+                        <h6 class="header">TÍCH LŨY NV-POINT</h6>
+                        <div class="detail_msg" style="opacity: 0.5">Nhận quà tặng hấp dẫn , giá trị </div>
+                    </div>
+                </div>
+            </div>
+            <div class="policy border" style="padding-bottom: 20px;">
+                <div class="header border">SẢN PHẨM CÙNG NHÓM</div>
+                <div class="data">
+                    <img src="../asset/rcmProd-1.webp" alt="">
+                    <div class="detail">
+                        <div class="detail_msg" style="opacity: 0.5">Nồi chiên không dầu Daewoo DEF</div>
+                        <div class="price">223,000 ₫</div>
+                    </div>
+                </div>
+                <hr>
+                <div class="data">
+                    <img src="../asset/rcmProd-2.webp" alt="">
+                    <div class="detail">
+                        <div class="detail_msg" style="opacity: 0.5">Máy Tính Casio FX580 VNX Chính Hãng</div>
+                        <div class="price">123,000 ₫</div>
+                    </div>
+                </div>
+            </div>
+            <div class="policy border" style="padding-bottom: 00px;">
+                <div class="header border">ĐƯỢC QUAN TÂM NHIỀU</div>
+                <ul>
+                    <li>Diễn Tiến Văn Hóa Nguồn Gốc Chữ Hán - Quyển 3</li>
+                    <li>Sách Nhân Số Học</li>
+                    <li>Máy Tính Casio(78)</li>
+                    <li>Methode Rose</li>
+                    <li>Giấy Double A Everyday - A4 70 Gsm</li>
+                    <li>Đập Tan Nợ Nần</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="sendMail">
+        <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" height="3em" viewBox="0 0 640 512" style="fill: white;"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M128 0C110.3 0 96 14.3 96 32V224h96V192c0-35.3 28.7-64 64-64H480V32c0-17.7-14.3-32-32-32H128zM256 160c-17.7 0-32 14.3-32 32v32h96c35.3 0 64 28.7 64 64V416H576c17.7 0 32-14.3 32-32V192c0-17.7-14.3-32-32-32H256zm240 64h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H496c-8.8 0-16-7.2-16-16V240c0-8.8 7.2-16 16-16zM64 256c-17.7 0-32 14.3-32 32v13L187.1 415.9c1.4 1 3.1 1.6 4.9 1.6s3.5-.6 4.9-1.6L352 301V288c0-17.7-14.3-32-32-32H64zm288 84.8L216 441.6c-6.9 5.1-15.3 7.9-24 7.9s-17-2.8-24-7.9L32 340.8V480c0 17.7 14.3 32 32 32H320c17.7 0 32-14.3 32-32V340.8z"/></svg>   
+        </div>
+        <p>ĐĂNG KÝ NHẬN TIN</p>
+        <div class="feildInput">
+            <input type="text" placeholder="nhập địa chỉ email của bạn">
+            <div class="button">Đăng ký</div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="firstfooter">
+            <div class="column1">
+                <h4><Label>LIÊN HỆ</Label></h4>
+                <div class="crosssite"></div>
+                <div class="focus">
+                    CÔNG TY CỔ PHẦN VĂN HÓA NHÂN VĂN
+                </div>
+                <div class="opacity">MST :  0302229082</div>
+                <div class="merge">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512" style="fill: orange;"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/></svg>
+                    <p> Số 1 Trường Chinh, P.11, Q.Tân Bình, Tp.Hồ Chí Minh</p>
+                </div>
+                <div class="merge">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512" style="fill: orange;"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/></svg>                        <p> Hotline : 028.3636.7777 - 0813.709.777</p>
+                </div>
+                <div class="merge">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512" style="fill: orange;"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z"/></svg>                        <p>email : sale@nhanvan.vn</p>
+                </div>
+                <div class="merge">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512" style="fill: orange;"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M464 256A208 208 0 1 1 48 256a208 208 0 1 1 416 0zM0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM232 120V256c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"/></svg>                        <p>Giờ mở cửa Từ thứ 2 đến chủ nhật: 7h30 - 21h30</p>
+                </div>
+                <img src="../asset/logo-bct.webp" alt="">
+                <img src="../asset/listLogoBrand.png" alt="">
+            </div>
+            <div class="column2">
+                <h4><Label>THÔNG TIN</Label></h4>
+                <div class="crosssite"></div>
+                <div class="focus">
+                    Giới thiệu
+                </div>
+                <div class="focus">
+                    Hệ thống cửa hàng
+                </div>
+                <div class="focus">
+                    Chính sách khách sỉ
+                </div>
+                <div class="focus">
+                    Điều khoản sử dụng
+                </div>
+                <div class="focus">
+                    Chính sách bảo mật
+                </div>
+                <div class="focus">
+                    Chính sách đổi trả/ hoàn tiền
+                </div>
+            </div>
+            <div class="column2">
+                <h4><Label>DỊCH VỤ</Label></h4>
+                <div class="crosssite"></div>
+                <div class="focus">
+                    Tích điểm NV-Point
+                </div>
+                <div class="focus">
+                    Ưu đãi hiện có
+                </div>
+                <div class="focus">
+                    Sách độc quyền
+                </div>
+                <div class="focus">
+                    Ưu đãi VPP
+                </div>
+            </div>
+            <div class="column2">
+                <h4><Label>FANPAGE FACEBOOK</Label></h4>
+                <div class="crosssite"></div>
+                <img src="../asset/fanpage.png" alt="">
+            </div>
+        </div>
+        <div class="secondFooter">
+            <div class="crossite"></div>
+            <div class="content">Copyright © 2023. All Rights Reserved.  Siêu Thị Sách & Tiện Ích Nhân Văn</div>
+            <img src="../asset/listLogoBrand2.webp" alt="">
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+<script src="../function/config.js"></script>
+<script src="../function/changeSlideImage.js" type="module"></script>
+</html>

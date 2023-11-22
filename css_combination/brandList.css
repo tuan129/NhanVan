@@ -1,0 +1,41 @@
+.investingBrand {
+    width: 84.4%;
+    border: 1px solid black;
+}
+.investingBrand>.header {
+    background-color: rgba(49,112,182,255);
+    display: flex ;
+    justify-content: space-between ;
+    align-items: center;
+    padding: 10px 30px 10px 30px ;
+    margin: 0 ;
+}
+.investingBrand>.header>p {
+    margin: 0;
+    color: white ;
+    font-weight: 700;
+}
+.investingBrand>.header>.part2 {
+    width: 6% ;
+    display: flex ;
+    justify-content: space-between ;
+    align-items: center;
+}
+.investingBrand>.header>.part2>span{
+    background-color: white ;
+}
+.investingBrand>.listBrand {
+    width: 95%;
+}
+.investingBrand>.listBrand>.list {
+    width: 100%;
+    margin-top: 10px ;
+    margin-bottom: 10px ;
+    display: flex ;
+    justify-content: space-between ;
+    align-items: center;
+}
+.investingBrand>.listBrand>.list>img {
+    width: 16%;
+    margin-left: 35px ;
+}

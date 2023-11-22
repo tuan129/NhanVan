@@ -1,0 +1,24 @@
+.sliderContext {
+    width: 100% ;
+    display: flex ;
+    justify-content: center ;
+    align-items: center;
+}
+.sliderCustom{
+    width: 960px ;
+    height: 488.01px ;
+}
+.static_img{
+    margin-top: 10px;
+    width: 960px ;
+    height: 488.01px ;
+}
+.sub_slider{
+    width: 300px ;
+    margin-left: 20px;
+}
+.sub_slider>img {
+    margin-top: 10px ;
+    width: 300px ;
+    height: 240px ;
+}

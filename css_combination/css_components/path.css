@@ -1,0 +1,10 @@
+.path {
+    margin-top: 20px;
+    width: 84.4%;
+}
+body {
+    display: flex ;
+    justify-content: center ;
+    align-items: center ;
+    flex-direction: column;
+}

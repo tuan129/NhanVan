@@ -1,0 +1,74 @@
+.footer {
+    width: 84.4% ;
+    /* display: flex ;
+    justify-content: space-between ;
+    align-items: flex-start; */
+}
+.footer>.firstfooter{
+    width: 95%;
+    margin-top: 20px;
+    display: flex ;
+    justify-content: space-between ;
+    align-items: flex-start;
+}
+.footer>.firstfooter>.column1,.column2{
+    width: 35%;
+}
+.footer>.firstfooter>.column1>.crosssite{
+    width: 30px ;
+    height: 2px ;
+    background-color: #ff5800;
+    margin-bottom: 10px ;
+}
+.footer>.firstfooter>.column2>.crosssite{
+    width: 30px ;
+    height: 2px ;
+    background-color: #ff5800;
+    margin-bottom: 10px ;
+}
+.footer>.firstfooter>.column1>.merge{
+    display: flex ;
+    justify-content: flex-start ;
+    align-items: center;
+    margin-top: 10px ;
+}
+.footer>.firstfooter>.column1>.merge>p{
+    margin: 0;
+    margin-left: 10px ;
+}
+.footer>.firstfooter>.column1>img{
+    height: 32px;
+    margin-top: 10px ;
+}
+.footer>.firstfooter>.column2>img{
+    height: 160px;
+}
+.column2{
+    width: 20%;
+}
+.column2>.focus {
+    margin-top: 10px ;
+}
+.secondFooter {
+    width: 100%;
+    margin-top: 30px ;
+    display: flex ;
+    justify-content: center ;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.secondFooter>.crossite{
+    width: 95% ;
+    border: 1px solid #ff5800 ;
+}
+.secondFooter>div.content {
+    margin-top: 30px ;
+    width: 30%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.secondFooter>img {
+    position: absolute ;
+    right: -80px ;
+}

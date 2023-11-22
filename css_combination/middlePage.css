@@ -1,0 +1,111 @@
+.middleDataPage{
+   width: 100% ;
+   display: flex ;
+   justify-content: center ;
+   align-items: center;
+   margin-top: 20px ;
+   flex-direction: column;
+}
+.middleDataPage>.table{
+    width: 84.4%;
+    display: flex ;
+    justify-content: center ;
+    align-items:center;
+    flex-direction: column;
+    border-bottom: 1px solid #ddd ;
+    border-left: 1px solid #ddd ;
+    border-right: 1px solid #ddd ;
+}
+.middleDataPage>.table>.header{
+    border-bottom: 2px solid rgba(49,112,182,255) ;
+    width: 100% ;
+    display: flex ;
+    justify-content: space-between ;
+    align-items: center;
+}
+.middleDataPage>.table>.header>.part1>span.mainSelect{
+    margin-right: 40px ;
+    background-color: rgba(49,112,182,255) ;
+    color: white ;
+    padding: 10px ;
+    position: relative;
+}
+.middleDataPage>.table>.header>.part2{
+    width:6%;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    margin-bottom: 5px ;
+}
+.middleDataPage>.table>.header>.part2>span{
+    background-color: white ;
+    padding: 5px 10px 5px 10px ;    
+}
+.middleDataPage>.table>.realTable{
+    margin-top: 10px ;
+    width: 95% ;
+    display: flex ;
+   justify-content: space-between ;
+   align-items: flex-start;
+}
+.middleDataPage>.table>.realTable>.banner-side{
+    width: 307px ;
+    height: 615px;
+}
+.middleDataPage>.table>.realTable>.banner-side>img{
+    width: 100%;
+    height: 100%;
+}
+.middleDataPage>.table>.realTable>.grid{
+    margin-left: 10px ;
+    width: calc(100% - 307px);
+    display: flex ;
+    flex-wrap: wrap; 
+    justify-content: space-around ;
+    align-self: center;
+}
+.middleDataPage>.table>.realTable>.grid>.product{
+    width: 19%;
+    background-color: white;
+    margin-bottom: 10px ;
+    position: relative;
+    padding-bottom: 20px;
+}
+.middleDataPage>.table>.realTable>.grid>.product>p{
+    margin: 5px 15px 10px  15px ;
+    font-size: 13px ;
+}
+.middleDataPage>.table>.realTable>.grid>.product>img{
+    width: 100% ;
+    height: auto;
+}
+.middleDataPage>.table>.realTable>.grid>.product>.price>p,del{
+    margin: 10px 0 20px ; 
+    margin: 0 ;
+    padding: 0 ;
+}
+.middleDataPage>.table>.realTable>.grid>.product>.price>p{
+    font-weight: bold;
+    color: rgba(236,100,42,255) ;
+}
+.middleDataPage>.table>.realTable>.grid>.product>.discount{
+    position: absolute;
+    top: 10px ;
+    left: 10px ;
+    color: white ;
+    background-color: rgba(236,100,42,255) ;
+    padding:5px ;
+    border-radius: 10px ;
+}
+.middleDataPage>.table>.realTable>.grid>.buttonSubmit{
+    background-color: #ff5800;
+    color: white;
+    padding: 8px 20px 8px 20px;
+    margin: 10px 0 10px;
+    border-radius: 40px;
+    font-size: 13px;
+}
+.middleDataPage>.table>.realTable>.grid>.buttonSubmit:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}

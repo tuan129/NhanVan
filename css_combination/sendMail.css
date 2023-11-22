@@ -1,0 +1,33 @@
+.sendMail {
+    margin-top: 50px ;
+    width: 100% ;
+    display: flex ;
+    justify-content: space-around ;
+    align-items: center;
+    background-color: rgba(49,112,182,255);
+    padding: 20px 0 20px ;
+}
+.sendMail>p {
+    color: white ;
+    font-size: 20px ;
+}
+.sendMail>.feildInput{
+    display: flex ;
+    justify-content: center ;
+    align-items: center;
+}
+.sendMail>.feildInput>input{
+    width: 350px;
+    height: 36px;
+    padding: 5px ;
+    border-radius: 4px 0 0 4px;
+    border: 0 ;
+}
+.sendMail>.feildInput>.button{
+    background-color: #ff5800;
+    height: 36px ;
+    line-height: 36px;
+    text-align: center;
+    color: white ;
+    padding: 0 10px 0 10px;
+}

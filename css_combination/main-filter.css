@@ -1,0 +1,43 @@
+.filter {
+    margin-top: 20px;
+    width: 100%;
+    display: flex ;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+}
+.filter>.wrapper{
+    width: 84.4%;
+    display: flex ;
+    justify-content: space-between ;
+    align-items: center;
+}
+.filter>.wrapper>.main-filter{
+    width: 20%;
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    background-color: rgba(49,112,182,255);
+}
+.filter>.wrapper>.main-filter>svg{
+    fill: white;
+}
+.filter>.wrapper>.main-filter>h3{
+    color: white;
+}
+.filter>.wrapper>.main-filter,span{
+    font-family: 'Quicksand', sans-serif !important;
+    padding: 10px;
+}
+.red_color{
+    color: red ;
+    font-weight: 800;
+}
+.fz_16px{
+    font-size: 13px;
+}
+.filter>.crossOver{
+    background-color: rgba(49,112,182,255);
+    width: 100% ;
+    height: 2px;
+}

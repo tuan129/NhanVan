@@ -1,0 +1,112 @@
+.flash_sale {
+   width: 100% ;
+   display: flex ;
+   justify-content: center ;
+   align-items: flex-start;
+   margin-top: 20px ;
+}
+.flash_sale>.table{
+    width: 84.4%;
+    border: 1px solid #ddd;
+}
+.flash_sale>.table>.header{
+    margin:0;
+    background-color:  #ff5800;;
+    padding: 0 20px 0 20px ;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    height: 40px;
+}
+.flash_sale>.table>.header>.button{
+    width: 7%;
+    display: flex ;
+    justify-content: space-between ;
+    align-items: center;
+}
+.flash_sale>.table>.header>.button>div{
+    width: fit-content  ;
+    height: fit-content ;
+    padding: 5px 10px 4px 10px ;
+    background-color: aliceblue;
+    font-size: 15px;
+}
+.flash_sale>.table>.data{
+    width: 100% ;
+   display: flex ;
+   flex-direction: column;
+   justify-content: center ;
+   align-items: center;
+   margin-top: 5px ;
+}
+.flash_sale>.table>.data>.buttonSubmit{
+    background-color: #ff5800;
+    color: white;
+    padding: 8px 20px 8px 20px;
+    margin: 10px 0 10px;
+    border-radius: 40px;
+    font-size: 13px;
+}
+.flash_sale>.table>.data>.buttonSubmit:hover{
+    cursor: pointer;
+    opacity: .6;
+}
+.flash_sale>.table>.data>.dataList{
+    width: 95% ;
+    display: flex;
+    justify-content: space-around ;
+    align-items: center ;
+    
+}
+.flash_sale>.table>.data>.dataList>span{
+    margin: 10px 0 10px 0 ;
+    width: 196px ;
+    display: flex ;
+    flex-direction: column;
+    background-color: white ;
+    position: relative;
+}
+.flash_sale>.table>.data>.dataList>span>.discount{
+    position: absolute;
+    top: 10px ;
+    left: 10px ;
+    color: white ;
+    background-color: rgba(236,100,42,255) ;
+    padding:5px ;
+    border-radius: 10px ;
+}
+.d-flex_custom {
+    width: 100%;
+    display: flex ;
+    justify-content: space-around ;
+    align-items: center;
+}
+.flash_sale>.table>.data>.dataList>span>.price>p,del{
+    margin: 0 ;
+    padding: 0 ; 
+    margin-bottom: 10px ;
+}
+.flash_sale>.table>.data>.dataList>span>.price>p{
+    font-weight: bold;
+    color: rgba(236,100,42,255) ;
+}
+.flash_sale>.table>.data>.dataList>span>.price>del{
+    opacity: 0.4;
+}
+.flash_sale>.table>.data>.dataList>span>a{
+    font-size: 13px;
+}
+.flash_sale>.table>.data>.dataList>span>.timer{
+    display: flex ;
+    justify-content: space-around ;
+    align-items: center;
+    border-radius: 10px ;
+    margin-top: 10px ;
+}
+.flash_sale>.table>.data>.dataList>span>.timer>p{
+    margin: 0;
+    padding:0 ;
+    color: white ;
+    font-size: small;
+    padding: 5px 0 5px 0 ;
+}
